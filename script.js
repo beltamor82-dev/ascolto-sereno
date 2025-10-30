@@ -2,7 +2,7 @@
 // === CONFIGURAZIONE BACKEND SICURA ===
 // NON C'È CHIAVE API LATO CLIENT. IL BACKEND DEVE ESSERE IN ESECUZIONE.
 // ====================================================================
-const BACKEND_URL = "https://ascolto-sereno-api.onrender.com"; 
+const BACKEND_URL = "https://ascolto-sereno-api.onrender.com/api/chat"; 
 // ====================================================================
 
 // Istruzioni Etiche e Ruolo (SYSTEM_PROMPT)
@@ -256,3 +256,4 @@ window.onload = () => {
     });
 
 };
+
